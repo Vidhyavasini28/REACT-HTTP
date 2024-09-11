@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 export class PostForm extends Component {
     constructor(props){
@@ -27,7 +27,9 @@ export class PostForm extends Component {
             
         })
     }
+
   render() {
+
     const { userId,title,body}=this.state
     return (
       <div>
@@ -48,4 +50,4 @@ export class PostForm extends Component {
   }
 }
 
-export default PostForm
+export default PostForm;
